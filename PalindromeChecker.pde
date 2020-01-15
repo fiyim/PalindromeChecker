@@ -26,7 +26,6 @@ public boolean palindrome(String word)
   for (int i = 0; i < b.length(); i++)
     if (Character.isLetter(b.charAt(i)))
       c += b.charAt(i);
-  println(c);
   if(c.equals(reverse(c)))
     return true;
   else
